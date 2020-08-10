@@ -1,6 +1,6 @@
 {
-  "name": "Test-React3",
-  "homepage": "http://dancl6.github.io/photo-port",
+  "name": "photo-port",
+  "homepage": "http://dancl6.github.io/Test-React4",
   "version": "0.1.0",
   "private": true,
   "dependencies": {
