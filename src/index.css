@@ -16,6 +16,9 @@ code {
   margin-left: 600px;
 } */
 
+
+
+
 .header-stylin{
   background-color: rgb(144, 95, 146);
   font-size: 30px ;
@@ -35,7 +38,7 @@ code {
 
 .img-stylin {
   display: flex;
-  /* flex-wrap: wrap; */
+
   justify-content: center;
   padding: 20px;
   margin-top: 20px;
@@ -52,7 +55,7 @@ code {
 
 .image-size {
   width: 100%;
-  height: 500px
+  height: 500px;
 }
 
 .card-background {
