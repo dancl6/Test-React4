@@ -4,6 +4,7 @@ import Row from 'react-bootstrap/Row';
 import Col from 'react-bootstrap/Col';
 import Container from 'react-bootstrap/Container';
 
+
 // import '../../index.css';
 
 // import image1 from '../../../public/PasswordGenerator.png'
@@ -62,9 +63,9 @@ function Project() {
     return (
     <div>
     <Container  key="Container" >
-    <Row  key= "Row" >
+    <Row  key= "Row" className = "d-flex justify-content-center" >
         {projects.map((project,i) =>(
-    <Col sm={12} md={6} key={i}>
+    <Col sm={3} md={3} key={i} className = "col-border d-flex justify-content-center">
     <Card  key={project.name} className="bg-dark text-white card-background set-padding">
     <Card.Img key={project.image} src= {process.env.PUBLIC_URL+"/"+project.image} alt="Card image" className = "image-size"/>
     
