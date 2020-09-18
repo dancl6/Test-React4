@@ -20,7 +20,7 @@ code {
 
 
 .header-stylin{
-  background-color: rgb(144, 95, 146);
+  background-color: rgb(17, 16, 17);
   font-size: 30px ;
 }
 
@@ -59,7 +59,7 @@ code {
 }
 
 .card-background {
-  background-color: rgb(146, 146, 228);
+  background-color: rgb(10, 10, 12);
 }
 
 .set-width {
@@ -70,7 +70,7 @@ code {
   padding-top: 60px;
   padding-bottom: 60px;
 
-  margin-bottom: 60px;
+  /* margin-bottom: 60px; */
 }
 
 .col-border {
