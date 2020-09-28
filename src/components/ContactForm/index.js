@@ -53,7 +53,7 @@ function ContactForm() {
 // JSX
 return (
     <section>
-    <Container  key="Container" >
+    {/* <Container  key="Container" >
     <Row  key= "Row" className = "d-flex justify-content-center" >
     <Col sm={3} md={3}  className = "col-border d-flex justify-content-center">
 
@@ -62,7 +62,7 @@ return (
     </Card>
     </Col>
     </Row>
-    </Container>
+    </Container> */}
 
       <h1 className= "text-center set-padding">Email: danielclyons@yahoo.com</h1>
       <h1 className= "text-center set-padding">LinkedIn: https://www.linkedin.com/in/dan-lyons-41380337/</h1>
