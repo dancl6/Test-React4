@@ -7,12 +7,13 @@ import Card from 'react-bootstrap/Card';
 
 function ContactForm() {
 
-  const projects = useState([
+  const [projects] = useState([
     {
-        image: 'DanPic2.jpg'
-      
+        image: 'DanPic2.jpg'      
     }
   ])
+
+  console.log("i am at project.image", projects[0].image)
 
     // const [errorMessage, setErrorMessage] = useState('');
     // const [formState, setFormState] = useState({ name: '', email: '', message: '' });
@@ -53,21 +54,21 @@ function ContactForm() {
 // JSX
 return (
     <section>
-    {/* <Container  key="Container" >
-    <Row  key= "Row" className = "d-flex justify-content-center" >
+    <Container  key="Container"  >
+    <Row  key= "Row" className = "d-flex justify-content-md-center link" >
     <Col sm={3} md={3}  className = "col-border d-flex justify-content-center">
 
     <Card   className="bg-dark text-white card-background set-padding">
-    <Card.Img  src= {process.env.PUBLIC_URL+"/"+projects.image} alt="Card image" className = "image-size"/>
+    <Card.Img  src= {process.env.PUBLIC_URL+"/"+projects[0].image} alt="Card image" className = "image-size"/>
     </Card>
     </Col>
     </Row>
-    </Container> */}
+    </Container>
 
-      <h1 className= "text-center set-padding">Email: danielclyons@yahoo.com</h1>
-      <h1 className= "text-center set-padding">LinkedIn: https://www.linkedin.com/in/dan-lyons-41380337/</h1>
-      <h1 className= "text-center set-padding">GitHub: https://github.com/dancl6 </h1>
-      <h1 className= "text-center set-padding">Portfolio: https://dancl6.github.io/Test-React4/</h1>
+      <a className= "text-center set-padding link" href = "mailto:danielclyons@yahoo.com">Email: danielclyons@yahoo.com</a>
+      <a className= "text-center set-padding link" href = "https://www.linkedin.com/in/dan-lyons-41380337/">LinkedIn: https://www.linkedin.com/in/dan-lyons-41380337/</a>
+      <a className= "text-center set-padding link" href = "https://github.com/dancl6">GitHub: https://github.com/dancl6 </a>
+      <a className= "text-center set-padding link" href = "https://dancl6.github.io/Test-React4/">Portfolio: https://dancl6.github.io/Test-React4/</a>
 
         {/* <h1 data-testid="contact">Contact me (Currently Non-Functional)</h1>
         <form id="contact-form" onSubmit={handleSubmit}>

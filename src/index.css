@@ -78,3 +78,9 @@ code {
   border-style: solid;
   margin: 5px;
 }
+
+.link {
+  font-size: 40px;
+  display: flex;
+  justify-content: center;
+}
