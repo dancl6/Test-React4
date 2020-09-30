@@ -19,9 +19,9 @@ function Header(props) {
     return (
         <header className="flex-row px-1 header-stylin">
         <h2>
-          <a data-testid="link" href="/">
+          <div className = "color-font" >
             Dan Lyons Portfolio
-          </a>
+          </div>
         </h2>
         <nav>
           <ul className="flex-row">    

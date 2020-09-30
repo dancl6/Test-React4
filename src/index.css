@@ -89,3 +89,14 @@ code {
   justify-content: center;
   align-items: center;
 }
+
+.width {
+  width: 1200px;
+  text-align: center;
+  display: flex;
+  justify-content: center;
+}
+
+.color-font {
+  color: white;
+}
