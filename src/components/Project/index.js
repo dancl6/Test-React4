@@ -66,7 +66,7 @@ function Project() {
     <Row  key= "Row"  >
         {projects.map((project,i) =>(
     <Col sm={12} md={3} key={i} className = "set-padding" >
-    <Card  key={project.name} className="bg-dark text-white card-background container-fluid ">
+    <Card  key={project.name} className="bg-dark text-white card-background container-fluid col-border">
     <Card.Img key={project.image} src= {process.env.PUBLIC_URL+"/"+project.image} alt="Card image" className = "image-size container-fluid"/>
     
     <Card.ImgOverlay>
