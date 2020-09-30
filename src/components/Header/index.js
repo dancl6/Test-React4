@@ -19,7 +19,7 @@ function Header(props) {
     return (
         <header className="flex-row px-1 header-stylin">
         <h2>
-          <a data-testid="link" href="/Test-React4">
+          <a data-testid="link" href="/">
             <span role="img" > </span> Dan Lyons Portfolio
           </a>
         </h2>

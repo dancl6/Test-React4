@@ -62,15 +62,15 @@ function Project() {
     console.log(projects[0].image)
     return (
     <div>
-    <Container  key="Container" >
-    <Row  key= "Row" className = "d-flex justify-content-center" >
+    <Container  key="Container"  >
+    <Row  key= "Row"  >
         {projects.map((project,i) =>(
-    <Col sm={3} md={3} key={i} className = "col-border d-flex justify-content-center">
-    <Card  key={project.name} className="bg-dark text-white card-background set-padding">
-    <Card.Img key={project.image} src= {process.env.PUBLIC_URL+"/"+project.image} alt="Card image" className = "image-size"/>
+    <Col sm={12} md={3} key={i} className = "set-padding" >
+    <Card  key={project.name} className="bg-dark text-white card-background container-fluid ">
+    <Card.Img key={project.image} src= {process.env.PUBLIC_URL+"/"+project.image} alt="Card image" className = "image-size container-fluid"/>
     
     <Card.ImgOverlay>
-        <Card.Title></Card.Title>
+        {/* <Card.Title></Card.Title> */}
         <Card.Text>
         {/* This is a wider card with supporting text below as a natural lead-in to
         additional content. This content is a little bit longer. */}
