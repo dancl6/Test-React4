@@ -20,7 +20,7 @@ function Header(props) {
         <header className="flex-row px-1 header-stylin">
         <h2>
           <a data-testid="link" href="/">
-            <span role="img" > </span> Dan Lyons Portfolio
+            Dan Lyons Portfolio
           </a>
         </h2>
         <nav>
