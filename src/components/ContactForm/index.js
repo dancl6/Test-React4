@@ -55,11 +55,11 @@ function ContactForm() {
 return (
     <section>
     <Container  key="Container"  >
-    <Row  key= "Row" className = "d-flex justify-content-md-center link" >
-    <Col sm={3} md={3}  className = "col-border d-flex justify-content-center">
+    <Row  key= "Row" className = "d-flex justify-content-md-center link container-fluid" >
+    <Col sm={3} md={3}  className = " d-flex justify-content-center  ">
 
-    <Card   className="bg-dark text-white card-background set-padding">
-    <Card.Img  src= {process.env.PUBLIC_URL+"/"+projects[0].image} alt="Card image" className = "image-size"/>
+    <Card   className="bg-dark text-white card-background ">
+    <Card.Img  src= {process.env.PUBLIC_URL+"/"+projects[0].image} alt="Card image" className = "image-size "/>
     </Card>
     </Col>
     </Row>
