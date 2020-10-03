@@ -5,12 +5,7 @@ import Col from 'react-bootstrap/Col';
 import Container from 'react-bootstrap/Container';
 
 
-// import '../../index.css';
 
-// import image1 from '../../../public/PasswordGenerator.png'
-// export default {
-//     image1
-// }
 function Project() {
 
 

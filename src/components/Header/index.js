@@ -4,18 +4,10 @@ import React from 'react';
 function Header(props) {
 
     const {
-      // categories = [],
-      // setCurrentCategory,
-      // currentCategory,
-      // contactSelected,
+
       setContactSelected
     } = props;
-    // useEffect(() => {
-    //     document.title = capitalizeFirstLetter(currentCategory.name);
-    //   }, [currentCategory]);
-    // useEffect(() => {
-    //     document.title = "title";
-    //   }
+
     return (
         <header className="flex-row px-1 header-stylin">
         <h2>
@@ -26,16 +18,7 @@ function Header(props) {
         <nav>
           <ul className="flex-row">    
 
-          {/* {categories.map((category) =>(
-             
-             <a className="nav-stylin" >
-                 <span onClick={() => {
-                     setCurrentCategory(category);
-                     setContactSelected(false);
-                 }}>{category.name}</span>
-             </a>
 
-          ))} */}
 
             <a className="nav-stylin" data-testid="about" href="#about" >
             <span onClick={() => {

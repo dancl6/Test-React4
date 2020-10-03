@@ -27,15 +27,7 @@ function Navigation(props) {
     }
   };
 
-    // const {
-    //   contactSelected,
-    //   setContactSelected,
-    //   products
-    // } = props;
 
-    // useEffect(() => {
-    //     document.title = "title";
-    //   }
     return (
     <div>
 
