@@ -1,5 +1,7 @@
 # Dan Lyons Portfolio  
 
+## [Deployed App](https://dancl6.github.io/Test-React4/ "Deployed Portfolio")
+
 ## Badges
 
 ![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)
@@ -41,7 +43,5 @@ none
 ## Questions
 
 [User Git Hub Link](https://github.com/dancl6/Test-React4/  "Git Hub Link")
-
-[Deployed App](https://dancl6.github.io/Test-React4/ "Deployed Portfolio")
 
 User Email: danielclyons@yahoo.com
