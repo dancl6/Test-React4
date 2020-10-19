@@ -1,7 +1,7 @@
 # Dan Lyons Portfolio  
 
 ## [Deployed App](https://dancl6.github.io/Test-React4/ "Deployed Portfolio")
-
+![Image Deployed App](https://github.com/dancl6/Test-React4/blob/master/public/PicDeployedApp.png?raw=true)
 ## Badges
 
 ![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)
