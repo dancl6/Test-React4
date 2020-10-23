@@ -5,9 +5,7 @@ import Col from 'react-bootstrap/Col';
 import Container from 'react-bootstrap/Container';
 
 
-
 function Project() {
-
 
     const [projects] = useState([
         {
@@ -55,13 +53,14 @@ function Project() {
     ])
     console.log("i am at projects console log")
     console.log(projects[0].image)
+    
     return (
     <div>
     <Container  key="Container"  >
     <Row  key= "Row"  >
         {projects.map((project,i) =>(
-    <Col sm={12} md={3} key={i} className = "set-padding" >
-    <Card  key={project.name} className="bg-dark text-white card-background container-fluid col-border">
+    <Col  md={4} key={i} className = "set-padding" >
+    <Card  key={project.name} className="bg-dark  card-background container-fluid col-border">
     <Card.Img key={project.image} src= {process.env.PUBLIC_URL+"/"+project.image} alt="Card image" className = "image-size container-fluid"/>
     
     <Card.ImgOverlay>

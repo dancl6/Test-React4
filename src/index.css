@@ -55,7 +55,7 @@ code {
 
 .image-size {
   width: 100%;
-  height: 200px;
+  height: auto;
 }
 
 .card-background {
@@ -100,3 +100,4 @@ code {
 .color-font {
   color: white;
 }
+
