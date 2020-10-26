@@ -101,3 +101,26 @@ code {
   color: white;
 }
 
+.about {
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+}
+
+.image {
+  position: relative;
+  width: 100%;
+}
+
+.h1-overlay {
+  position: absolute;
+  color: rgb(213, 236, 241);
+  top: 200px;
+  left: 25%;
+  width: 50%;
+}
