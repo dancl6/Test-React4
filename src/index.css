@@ -115,12 +115,17 @@ code {
 .image {
   position: relative;
   width: 100%;
+  
 }
 
-.h1-overlay {
+.h2-overlay {
   position: absolute;
   color: rgb(213, 236, 241);
-  top: 10px;
+  top: 150px;
   left: 25%;
   width: 50%;
+}
+
+.languages {
+  color: blue;
 }
