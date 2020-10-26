@@ -120,7 +120,7 @@ code {
 .h1-overlay {
   position: absolute;
   color: rgb(213, 236, 241);
-  top: 200px;
+  top: 10px;
   left: 25%;
   width: 50%;
 }
